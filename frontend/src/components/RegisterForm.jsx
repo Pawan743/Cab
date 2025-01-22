@@ -28,7 +28,6 @@ function RegisterForm() {
     }
   };
 
-  // Handle confirm password changes
   const handleConfirmPasswordChange = (e) => {
     setConfirmPassword(e.target.value);
     if (password !== e.target.value) {
